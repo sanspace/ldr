@@ -1,49 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <!--
+    Below code is from https://medialoot.com/item/free-bootstrap-4-theme-startup-ui-kit/
+  -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ldiary - Lawyer's Diary</title>
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-      crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="cover">
+    <nav class="navbar navbar-expand-lg navbar-custom">
       <div class="container">
         <a href="" class="navbar-brand">Ldiary</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse pull-xs-right justify-content-end"
-            id="navbarSupportedContent">
+        <div class="collapse navbar-collapse pull-xs-right justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav mt-2 mt-md-0">
-            <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="features" class="nav-link">About</a></li>
             <li class="nav-item"><a href="" class="nav-link">Pricing</a></li>
             <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
             <li class="nav-item">
-              <a href="" class="btn btn-outline-white btn-outline">Login</a>
+              <a href="" class="btn btn-outline-success btn-outline">Login</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <div class="cover-container">
+      <div class="cover-inner container text-center">
+        <p class="lead ">Your one stop tool to manage your cases</p>
+        <div class="divider"></div>
+        <h1 class="jumbotron-heading">Say <em>hello</em> to our <strong>Lawyer Diary</strong></h1>
+        <div class="row">
+          <div class="m-auto col-md-4 mt-5">
+            <button type="submit" class="btn btn-lg btn-success pill-btn mt-5">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="features text-center" id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="divider"></div>
+      <div class="row">
+        <div class="col-md-4 col-feature">
+          <div class="rounded-circle justify-center">
+            <em class="fa fa-2x fa-paint-brush"></em>
+          </div>
+          <h4>Clean Design</h4>
+          <p>Clean and intuitive UI. Things are where you want them to be. It's easy and more natural to use. Just try it. You'll
+            love it!</p>
+          <p><a class="btn btn-outline-primary mt-2" href="#" role="button">View details</a></p>
+        </div>
+        <div class="col-md-4 col-feature">
+          <div class="rounded-circle justify-center">
+            <em class="fa fa-2x fa-desktop"></em>
+          </div>
+          <h4>Responsive</h4>
+          <p>Works on your laptop. Works on your tablet. Works on your mobile phone. It's always available.</p>
+          <p><a class="btn btn-outline-primary mt-2" href="#" role="button">View details</a></p>
+        </div>
+        <div class="col-md-4 col-feature">
+          <div class="rounded-circle justify-center">
+            <em class="fa fa-2x fa-code"></em>
+          </div>
+          <h4>Efficient</h4>
+          <p>Uses all the modern technologies. Excellent performance makes things feel instant if not magic.</p>
+          <p><a class="btn btn-outline-primary mt-2" href="#" role="button">View details</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav-footer mt-2 mt-md-0 ">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="divider"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-left mt-2 mb-3 pt-1">
+          <p>Copyright © 2017 Ldiary. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-right mb-4">
+          <ul class="social">
+            <li><a href="#" title="Facebook" class="fa fa-facebook"></a></li>
+            <li><a href="#" title="Twitter" class="fa fa-twitter"></a></li>
+            <li><a href="#" title="Google+" class="fa fa-google"></a></li>
+            <li><a href="#" title="Dribbble" class="fa fa-dribbble"></a></li>
+            <li><a href="#" title="Instagram" class="fa fa-instagram"></a></li>
+            <div class="clear"></div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- bootstrap -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-      crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-      crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

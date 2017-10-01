@@ -1,8 +1,32 @@
+/*
+
+These styles are from
+https://medialoot.com/item/free-bootstrap-4-theme-startup-ui-kit/
+
+*/
+
 body {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   background-color: #ffffff;
   color: #46484a;
+}
+
+h1 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.nav-link.active {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+  padding: 0.5rem 1rem;
 }
 
 a {
@@ -14,4 +38,210 @@ a.navbar-brand, a.logo {
   font-size: 2rem;
   font-weight: bold;
   margin-top: 0;
+}
+
+.cover {
+  background: #f7f7f8;
+  min-height: 40rem;
+  height: auto;
+  border-radius: 0;
+  width: 100%;
+  color: #333;
+  padding-top: 1rem;
+}
+
+.cover a.navbar-brand {
+  color: #000 !important;
+}
+
+.cover h1 {
+  color: #000;
+  font-weight: 200;
+}
+
+.cover-inner {
+  display: table-cell;
+  vertical-align: middle; }
+
+.cover-container {
+  display: table;
+  height: 100%;
+  min-height: 34rem;
+  margin: 0 auto;
+}
+
+.cover-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.divider {
+  display: block;
+  width: 6rem;
+  height: 0.3rem;
+  background-color: #dfe1e5;
+  margin: 2rem auto;
+}
+
+p {
+  color: #696b6e;
+  font-size: .9rem;
+}
+
+p.lead {
+  margin: 2rem auto;
+  color: #696b6e;
+  font-family: "Droid Serif", Times, Georgia, serif;
+  font-style: italic;
+}
+
+.features {
+  padding: 5rem 0;
+}
+.features h2 {
+  margin-top: 2rem;
+}
+.features .col-feature {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.features .col-feature .rounded-circle {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 6rem;
+  height: 6rem;
+  background: none;
+  border: 0.15rem solid #dfe1e5;
+}
+
+.justify-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pill-btn {
+  border-radius: 499rem !important;
+}
+
+li.nav-item .btn {
+  margin-top: .2rem;
+  margin-left: .4rem;
+}
+
+
+.btn-primary, .btn-outline-primary, .btn-secondary, .btn-outline-secondary, .btn-white, .btn-outline-white, .btn-success, .btn-outline-success, .btn-info, .btn-outline-info, .btn-warning, .btn-outline-warning, .btn-danger, .btn-outline-danger {
+  font-size: .75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: .3rem;
+}
+
+.btn-outline-primary, .btn-outline-secondary, .btn-outline-white, .btn-outline-success, .btn-outline-info, .btn-outline-warning, .btn-outline-danger {
+  border-width: 0.15rem;
+}
+
+.btn-lg {
+  padding: 1.1rem 2.5rem;
+  font-size: .9rem;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #59a0d7;
+  border-color: #59a0d7;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #4089c1;
+  border-color: #4089c1;
+}
+
+.btn-outline-primary, .btn-outline-primary:visited {
+  color: #59a0d7;
+  border-color: #59a0d7;
+  background: none;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+  background-color: #59a0d7;
+  border-color: #59a0d7;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background: #f7f7f8;
+  width: 100%;
+  color: #46484a;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+}
+
+.nav-footer {
+  list-style: none;
+  float: right;
+}
+
+.footer .nav-footer {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-footer li {
+  float: left;
+  margin-top: .5rem;
+}
+
+.footer .nav-footer .nav-link {
+  color: #696b6e;
+}
+
+.footer .divider {
+  width: 100%;
+  height: .1rem;
+  margin: .5rem 0 1.5rem 0;
+}
+
+.social {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.footer .social li a {
+  background: none;
+  border: none;
+}
+
+.social li a {
+  display: block;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: .4rem .1rem;
+  text-align: center;
+  text-decoration: none;
+  background: #fff;
+  color: #696b6e;
+  border: 0.1rem solid #dfe1e5;
+  border-radius: 499rem;
+  line-height: 1.5;
+  font-size: 1.4rem;
 }
