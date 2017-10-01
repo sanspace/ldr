@@ -88,7 +88,7 @@ p {
   font-size: .9rem;
 }
 
-p.lead {
+.cover p.lead {
   margin: 2rem auto;
   color: #696b6e;
   font-family: "Droid Serif", Times, Georgia, serif;
@@ -179,6 +179,52 @@ li.nav-item .btn {
   background-color: #59a0d7;
   border-color: #59a0d7;
   color: #fff;
+}
+
+/* Contact */
+.contact {
+  padding: 0 0 5rem 0;
+}
+
+.contact .contact-details {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.constrain-width {
+  max-width: 45rem;
+  margin: 0 auto;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+p {
+  color: #696b6e;
+  font-size: .9rem;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.form-control-custom {
+  border: 0.1rem solid #dfe1e5;
+  width: 100%;
+  padding: 1rem;
+  font-size: .9rem;
+  color: #696b6e;
+  border-radius: .3rem;
 }
 
 /* Footer */
